@@ -59,7 +59,7 @@ QQ 群号：643205479
 
 ### 0.0.1
 
-1. `C` Create: 基于lin-cms-koa-core创建新项目，命名为`alioth`(玉衡),作为lin-cms-koa-ts的核心基础库
+1. `C` Create: 基于lin-cms-koa-core创建新项目，命名为`alioth`(玉衡),作为lin-cms-koa-ts的核心基础库。修复了LinValidator获取validateFn名称bug，优化了并增加了项目TS类型，调整了CodeMessages的实现，修复了一些其他bug。
 
 ## Lin CMS 的特点
 
