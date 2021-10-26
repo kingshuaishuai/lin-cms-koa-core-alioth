@@ -1,0 +1,55 @@
+{
+  "name": "@ysslin/alioth",
+  "version": "0.0.1",
+  "main": "lin/index.js",
+  "license": "MIT",
+  "description": "The core library of Lin-CMS-Koa-TS",
+  "author": "kingshuaishuai",
+  "scripts": {
+    "tsc": "rimraf lin/ && tsc"
+  },
+  "keywords": [
+    "lin",
+    "cms",
+    "koa-ts"
+  ],
+  "devDependencies": {
+    "@types/async-busboy": "^0.7.2",
+    "@types/depd": "^1.1.32",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.3",
+    "@types/koa__router": "^8.0.8",
+    "@types/lodash": "^4.14.176",
+    "@types/mkdirp": "^1.0.2",
+    "@types/sequelize": "^4.28.10",
+    "@types/uuid": "^8.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0",
+    "typedoc": "^0.22.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@koa/router": "^10.1.1",
+    "async-busboy": "^1.1.0",
+    "chalk": "^4.1.2",
+    "class-validator": "^0.13.1",
+    "consola": "^2.15.3",
+    "dayjs": "^1.10.7",
+    "depd": "^2.0.0",
+    "egg-logger": "^2.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "lodash": "^4.17.21",
+    "mkdirp": "^1.0.4",
+    "sequelize": "^6.8.0",
+    "tslib": "^2.3.1",
+    "utility": "^1.17.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  }
+}

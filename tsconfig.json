@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "declaration": true,
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "importHelpers": true,
+    "strict": true,
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "./lin",
+    "rootDir": "./lib",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": false,
+    "types": ["koa-bodyparser"]
+  },
+  "exclude": [
+    "node_modules",
+    "lin",
+    "lib/**/__test__"
+  ],
+  "include": ["lib"],
+}
