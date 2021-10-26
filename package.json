@@ -5,6 +5,9 @@
   "license": "MIT",
   "description": "The core library of Lin-CMS-Koa-TS",
   "author": "kingshuaishuai",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "tsc": "rimraf lin/ && tsc"
   },
