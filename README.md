@@ -5,10 +5,10 @@
   Lin-CMS-Koa-Core-Alioth
 </h1>
 
-<h4 align="center">一个简单易用的CMS后端项目 | <a href="http://doc.cms.7yue.pro/" target="_blank">Lin-CMS-Koa-TS的核心库</a></h4>
+<h4 align="center">一个简单易用的CMS后端项目 | <a href="https://github.com/kingshuaishuai/lin-cms-koa-ts" target="_blank">Lin-CMS-Koa-TS的核心库</a> | <a href="http://doc.cms.7yue.pro/">官方文档</a></h4>
 
 <p align="center">
-  <a href="http://flask.pocoo.org/docs/1.0/" rel="nofollow">
+  <a href="https://koajs.com/" rel="nofollow">
   <img src="https://img.shields.io/badge/koa-2.13.4-green.svg" alt="flask version" data-canonical-src="https://img.shields.io/badge/koa-2.13.4-green.svg" style="max-width:100%;"></a>
   <a href="http://doc.cms.7yue.pro/" rel="nofollow"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg" alt="LISENCE" data-canonical-src="https://img.shields.io/badge/license-MIT-lightgrey.svg" style="max-width:100%;"></a>
 </p>
