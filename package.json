@@ -1,6 +1,6 @@
 {
   "name": "@ysslin/alioth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lin/index.js",
   "license": "MIT",
   "description": "The core library of Lin-CMS-Koa-TS",
