@@ -80,17 +80,31 @@ export class Token {
     if (!this.secret) {
       throw new Error('secret can not be empty')
     }
-    let decode: JwtPayload | string
+    let verifyResult: JwtPayload | string
     try {
-      decode = jwtGenerator.verify(token, this.secret)
+      verifyResult = jwtGenerator.verify(token, this.secret)
     } catch (err) {
       if (err instanceof TokenExpiredError) {
-        throw new ExpiredTokenException()
+        const decode = jwtGenerator.decode(token, {})
+        if (decode && typeof decode !== 'string') {
+          if (decode.type === TokenType.ACCESS) {
+            throw new ExpiredTokenException({
+              code: 10051
+            })
+          } else {
+            throw new ExpiredTokenException({
+              code: 10050
+            })
+          }
+        }
+        throw new ExpiredTokenException({
+          code: 10051
+        })
       } else {
         throw new InvalidTokenException()
       }
     }
-    return decode
+    return verifyResult
   }
 }
 
